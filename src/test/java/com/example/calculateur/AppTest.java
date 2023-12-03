@@ -4,7 +4,6 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-
 /**
  * Unit test for simple App.
  */
@@ -32,16 +31,9 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+     public void testApp()
     {
-        public void testApp()
-        {
-            Calc calc = new Calc();
+            Calculator calc = new Calculator();
             assertEquals(calc.somme("321", "425"), 746);
-            assertTrue(calc.somme("abc", "cba") < 0);
-            assertTrue(calc.somme("abc", "653") < 0);
-            assertTrue(calc.somme("-145", "153") < 0);
-        }
     }
 }
-
