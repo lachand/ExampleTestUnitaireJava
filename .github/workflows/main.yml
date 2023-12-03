@@ -21,7 +21,7 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Run tests
+    - name: Run maven with tests
       run: mvn clean package
       env:
         CI: true
